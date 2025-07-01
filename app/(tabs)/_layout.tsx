@@ -9,6 +9,7 @@ export default function TabsLayout() {
         options={{
           title: "Home",
           tabBarActiveTintColor: "#f15454",
+          headerShown: false, 
           tabBarIcon({ focused }: { focused: boolean }) {
             return (
               <Ionicons
@@ -25,6 +26,7 @@ export default function TabsLayout() {
         options={{
           title: "Search",
           tabBarActiveTintColor: "#f15454",
+          headerShown: false,
           tabBarIcon({ focused }: { focused: boolean }) {
             return (
               <Ionicons
@@ -41,7 +43,7 @@ export default function TabsLayout() {
         options={{
           title: "Guests",
           tabBarActiveTintColor: "#f15454",
-
+          headerShown: false,
           tabBarIcon({ focused }: { focused: boolean }) {
             return (
               <Ionicons
