@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "AirbnbClone",
-    "slug": "AirbnbClone",
+    "name": "DreamStay",
+    "slug": "dreamstay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "airbnbclone",
+    "scheme": "dreamstay",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
