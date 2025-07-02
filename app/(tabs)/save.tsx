@@ -1,10 +1,12 @@
+import Place from '@/components/Place';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Guests() {
+export default function Save() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Guests Page</Text>
+      
     </View>
   );
 }

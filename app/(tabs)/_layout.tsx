@@ -24,7 +24,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="search"
         options={{
-          title: "Search",
+          title: "Explore",
           tabBarActiveTintColor: "#f15454",
           headerShown: false,
           tabBarIcon({ focused }: { focused: boolean }) {
@@ -39,15 +39,15 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="guests"
+        name="save"
         options={{
-          title: "Guests",
+          title: "Save",
           tabBarActiveTintColor: "#f15454",
           headerShown: false,
           tabBarIcon({ focused }: { focused: boolean }) {
             return (
               <Ionicons
-                name="people"
+                name="save"
                 size={25}
                 color={focused ? "#f15454" : "gray"}
               />
