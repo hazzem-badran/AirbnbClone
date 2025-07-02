@@ -11,12 +11,13 @@ const Place = ({
   oldPrice,
   newPrice,
   totalPrice,
+  whitDes=true,
 }: PlaceProps) => {
   return (
     <ScrollView>
       <View style={{}}>
         <Image style={styles.image} source={{ uri: image }} />
-        <View style={{paddingHorizontal: 20 }}>
+        <View style={{ paddingHorizontal: 20 }}>
           <Text style={styles.bedrooms}>
             {bed} bed {bedroom} bedroom
           </Text>
@@ -31,8 +32,7 @@ const Place = ({
           </Text>
 
           <Text style={styles.totalPrice}>${totalPrice} total</Text>
-
-          <Text style={styles.longDescription}>{description}</Text>
+          {whitDes && <Text style={styles.longDescription}>{description}</Text>}
         </View>
       </View>
     </ScrollView>

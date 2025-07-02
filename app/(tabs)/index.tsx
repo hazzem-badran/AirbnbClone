@@ -1,6 +1,9 @@
+import Place from "@/components/Place";
+import { PLACES } from "@/constants/places";
 import { Fontisto } from "@expo/vector-icons";
 import {
   Dimensions,
+  FlatList,
   ImageBackground,
   Pressable,
   StyleSheet,
@@ -32,7 +35,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   image: {
     width: "100%",
-    height: 500,
+    height: "100%",
     resizeMode: "cover",
     justifyContent: "center",
   },

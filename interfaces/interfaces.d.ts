@@ -8,4 +8,5 @@ interface PlaceProps {
   oldPrice: number;
   newPrice: number;
   totalPrice: number;
+  whitDes?: boolean; 
 }

@@ -20,7 +20,7 @@ A beautiful and simple accommodation booking app built with React Native and Exp
 
 1. **Install dependencies**
    ```bash
-   npm install
+   yarn install
    ```
 
 2. **Start the development server**
@@ -36,20 +36,22 @@ A beautiful and simple accommodation booking app built with React Native and Exp
 
 ```
 app/
-├── (tabs)/          # Tab navigation screens
-│   ├── index.tsx    # Home screen
-│   └── search.tsx   # Search screen
-├── _layout.tsx      # Root layout
+├── (tabs)/           # Tab navigation screens
+│   ├── index.tsx     # Home screen
+│   └── explore.tsx   # explore screen
+├── _layout.tsx       # Root layout
 components/
-├── Place.tsx        # Property component
+├── Place.tsx         # Property component
 constants/
-├── places.ts        # Sample data
+├── places.ts         # Sample data
 ```
 
 ## Screenshots 📱
 
 The app features a beautiful home screen with luxury accommodations and an intuitive search interface.
 
+![Home Screen](assets/images/home.png)
+![Search Screen](assets/images/explore.png)
 ---
 
 Made with ❤️ using Expo and React Native
